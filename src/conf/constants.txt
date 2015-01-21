@@ -1,0 +1,24 @@
+## Path to Wapiti binary file
+#WAPITI_BINARY_PATH=/vol/zola/users/xtannier/tools/wapiti-1.4.0/bin/wapiti
+WAPITI_BINARY_PATH=/home/xtannier/tools/wapiti-1.4.0/bin/wapiti
+
+## Path to Wapiti model (path relative to resources folder) 
+WAPITI_MODEL_FILE=conf/wapiti-model.txt
+
+## Path to directory containing language-dependent rules
+DATA_DIR=data
+
+## Encoding used for rules
+ENCODING = UTF-8
+
+
+## Minimum size for a title (in characters)
+MIN_TITLE_SIZE=15
+
+## Paths inside language-dependent directory
+VOCABULARY_DIR_NAME=vocabulary
+VOCABULARY_FILE_LIST_NAME=vocabulary_file_list.txt
+TIME_RELATED_PATTERNS_FILE_NAME=tags/time-tag-trigger.txt
+TITLE_PATTERNS_FILE_NAME=tags/title-tag-trigger.txt
+TITLE_ANTI_PATTERNS_FILE_NAME=tags/title-tag-anti-trigger.txt
+DATE_IN_URL_PATTERNS_FILE_NAME=urls/date-in-url.txt

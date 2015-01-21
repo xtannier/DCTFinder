@@ -1,0 +1,5 @@
+.*title.*
+.*headline.*
+.*heading.*
+.*header.*
+.*titre.*

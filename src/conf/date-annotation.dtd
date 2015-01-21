@@ -1,0 +1,8 @@
+<!ELEMENT date (#PCDATA)> 
+<!ATTLIST date value CDATA #REQUIRED>
+<!ELEMENT date_updated (#PCDATA)> 
+<!ATTLIST date_updated value CDATA #REQUIRED>
+<!ELEMENT date_now (#PCDATA)> 
+<!ATTLIST date_now value CDATA #REQUIRED>
+<!ELEMENT title (#PCDATA)> 
+
